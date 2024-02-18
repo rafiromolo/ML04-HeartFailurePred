@@ -25,13 +25,18 @@ You can open this project on your computer. There are some ways to open this pro
 <ol>
     <li>Download this .ipynb file and download the dataset on the dataset folder (dataset/heart.csv)</li>
     <li>Save that on your local storage.</li>
-    <li>If you use Jupyter Notebook, make sure that you have already install matplotlib, seaborn, scikit-learn, and yellowbrick packages.</li>
-    To install those packages:
+    <li>If you use Jupyter Notebook, make sure that you have already install matplotlib, seaborn, scikit-learn, and yellowbrick packages. To install those packages:</li>
     <ul>
         <li>Matplotlib</li>
-        ```sh
         conda install matplotlib
-        ```
+        <li>Seaborn</li>
+        conda install seaborn
+        <li>Scikit-learn</li>
+        conda create -n sklearn-env -c conda-forge scikit-learn
+        <br>
+        conda activate sklearn-env
+        <li>Yellowbrick</li>
+        conda install -c districdatalabs yellowbrick
     </ul>
 </ol>
 
@@ -44,6 +49,7 @@ You can open this project on your computer. There are some ways to open this pro
     <li>Click on the Install Jupyter Notebook button.</li>
     <li>After the installation is complete, click on Launch button to launch Jupyter Notebook.</li>
     <li>Import or upload this project to Jupyter and open it.</li>
+    <li>You may scroll down to loading dataset section. You need to change the directory for the dataset with your local directory.</li>
 </ol>
 
 ### Google Colab
@@ -52,5 +58,15 @@ You can open this project on your computer. There are some ways to open this pro
     <li>Open <a href="https://colab.research.google.com/">Google Colab</a>.</li>
     <li>Click Upload button.</li>
     <li>You can import this project by dragging it into the box or by browse file by clicking the Browse button.</li>
+    <li>Import the dataset into Colab.</li>
     <li>This project is ready to use.</li>
 </ol>
+
+<!-- CONTACT -->
+
+## Contact
+
+You can contact me at:
+<br>
+LinkedIn: <a href="https://www.linkedin.com/in/rafi-achmad-romolo/">Rafi Achmad Romolo</a>
+Kaggle: <a href="https://www.kaggle.com/rafiromolo">rafiromolo</a>
