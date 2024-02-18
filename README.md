@@ -31,6 +31,7 @@ You can open this project on your computer. There are some ways to open this pro
         <li>Matplotlib</li>
         ```sh
         conda install matplotlib
+        ```
     </ul>
 </ol>
 
